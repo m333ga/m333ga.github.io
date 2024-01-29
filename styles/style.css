@@ -1,0 +1,85 @@
+body {
+    font: 24px "Open Sans", sans-serif;
+    color: whitesmoke;
+    background: #202020;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+body::before {
+    position: fixed;
+    z-index: -1;
+    pointer-events: none;
+    background: #202020;
+    background-size: cover;
+}
+
+.profile-card {
+    background-color: #2b2929;
+    width: 450px;
+    height: auto;
+    border-radius: 7px;
+    border: 1px solid #525252;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.title-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-h1 h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 0;
+}
+
+.text-h1-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-h2 h2 {
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.text-h2-block {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    flex-wrap: wrap;
+}
+
+.style-a {
+    flex-shrink: 0;
+    margin: 7px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-style: italic;
+    text-decoration: none;
+}
